@@ -9,6 +9,7 @@ import Service from '../components/Service/Service';
 import Testimonial from '../components/Testimonial/Testimonial';
 import Faq from '../components/Faq/Faq';
 import Appointment from '../components/Appointment/Appointment';
+import Footer from '../components/Footer/Footer';
 
 const Home = () => {
   return (
@@ -50,6 +51,7 @@ const Home = () => {
         <Faq></Faq>
       </div>
       <Appointment></Appointment>
+      <Footer></Footer>
     </div>
   );
 };

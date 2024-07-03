@@ -1,7 +1,7 @@
 import bannerBgLeft from '../../assets/frame1.png';
 import bannerBgRight from '../../assets/frame2.png';
-import left from '../../assets/left.png';
-import right from '../../assets/right.png';
+import left from '../../assets/left2.png';
+import right from '../../assets/right2.png';
 import appointmentImg from '../../assets/media/team5.png';
 import Button from '../../Shared/Button';
 import arrow from '../../assets/media/Arrow 2.png';
