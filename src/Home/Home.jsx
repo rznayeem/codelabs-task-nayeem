@@ -6,6 +6,7 @@ import left from '../assets/left.png';
 import right from '../assets/right.png';
 import WhoWeAre from '../components/WhoWeAre/WhoWeAre';
 import Service from '../components/Service/Service';
+import Testimonial from '../components/Testimonial/Testimonial';
 
 const Home = () => {
   return (
@@ -47,6 +48,7 @@ const Home = () => {
       <div className="max-w-[1160px] mx-auto">
         <WhoWeAre></WhoWeAre>
         <Service></Service>
+        <Testimonial></Testimonial>
       </div>
     </div>
   );
