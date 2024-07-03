@@ -25,7 +25,7 @@ const WhoWeAre = () => {
         <div className="relative">
           <img src={team1} alt="" />
           <div className="lg:absolute bg-[#343268] rounded-[32px] lg:-left-24 left-0 lg:-bottom-10 max-w-[395px] py-[47px] px-7 z-10">
-            <h3 className="text-white text-2xl font-medium mb-5">
+            <h3 className="text-white text-2xl font-medium mb-5 leading-3">
               Our mission is simple
             </h3>
             <p className="text-[#FFFFFFCC]">
