@@ -110,7 +110,7 @@ export const Testimonial = () => {
     <div className="relative w-full lg:mt-40 mt-12">
       <div>
         <HeaderTItle text={'Testimonial'}></HeaderTItle>
-        <h1 className="text-4xl mt-4 font-semibold leading-[54px] mb-4">
+        <h1 className="text-4xl mt-4 font-semibold leading-[54px] mb-7">
           What they say about us
         </h1>
       </div>
