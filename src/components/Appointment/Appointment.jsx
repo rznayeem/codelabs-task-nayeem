@@ -43,7 +43,7 @@ const Appointment = () => {
         <div className="absolute inset-0 z-0 opacity-25">
           <img
             src={bannerBgLeft}
-            className="absolute hidden left-0 top-0 z-0"
+            className="absolute hidden lg:flex left-0 top-0 z-0"
             alt=""
           />
           <img
