@@ -35,7 +35,7 @@ const Faq = () => {
   };
 
   return (
-    <div className="mt-40">
+    <div className="lg:mt-40 m-5 lg:m-0">
       <HeaderTItle text={'Faq'}></HeaderTItle>
       <h1 className="text-4xl mt-4 font-semibold leading-[54px] mb-4">
         Frequntly Asked Question

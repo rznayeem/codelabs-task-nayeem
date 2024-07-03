@@ -6,7 +6,7 @@ import team2 from '../../assets/media/team2.png';
 
 const Service = () => {
   return (
-    <div className="bg-[#FFFFF5] p-10 rounded-[32px] mt-40">
+    <div className="bg-[#FFFFF5] p-10 rounded-[32px] lg:mt-40">
       <div className="flex flex-col lg:flex-row items-center gap-[124px]">
         <div className="max-w-[428px]">
           <HeaderTItle text={'Service'}></HeaderTItle>
@@ -23,7 +23,7 @@ const Service = () => {
         <div className="">
           <div className="relative">
             <img className="rounded-[30px]" src={team4} alt="" />
-            <div className="absolute bg-[#02004399] rounded-[20px] left-5 bottom-5 max-w-[321px] p-[18px] z-10">
+            <div className="absolute bg-[#02004399] rounded-[20px] lg:left-5 lg:bottom-5 bottom-0 max-w-[321px] p-[18px] z-10">
               <h3 className="text-white text-xl font-medium mb-2">
                 Advanced Technology
               </h3>
@@ -55,7 +55,7 @@ const Service = () => {
       <div className="flex flex-col lg:flex-row items-center gap-7 mt-[60px]">
         <div className="relative">
           <img className="rounded-[30px]" src={team3} alt="" />
-          <div className="absolute bg-[#02004399] rounded-[20px] left-5 bottom-5 max-w-[321px] p-[18px] z-10">
+          <div className="absolute bg-[#02004399] rounded-[20px] lg:left-5 lg:bottom-5 bottom-0 max-w-[321px] p-[18px] z-10">
             <h3 className="text-white text-xl font-medium mb-2">
               Online Doctor Meet
             </h3>
@@ -84,7 +84,7 @@ const Service = () => {
         </div>
         <div className="relative">
           <img className="rounded-[30px]" src={team2} alt="" />
-          <div className="absolute bg-[#02004399] rounded-[20px] left-5 bottom-5 max-w-[321px] p-[18px] z-10">
+          <div className="absolute bg-[#02004399] rounded-[20px] lg:left-5 lg:bottom-5 bottom-0 max-w-[321px] p-[18px] z-10">
             <h3 className="text-white text-xl font-medium mb-2">
               Consultancy your health
             </h3>

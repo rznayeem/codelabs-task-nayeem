@@ -107,7 +107,7 @@ export const Testimonial = () => {
   }, [nextSlide]);
 
   return (
-    <div className="relative w-full mt-40">
+    <div className="relative w-full lg:mt-40 mt-12">
       <div>
         <HeaderTItle text={'Testimonial'}></HeaderTItle>
         <h1 className="text-4xl mt-4 font-semibold leading-[54px] mb-4">
@@ -116,7 +116,7 @@ export const Testimonial = () => {
       </div>
 
       {/* Carousel container */}
-      <div className="grid grid-cols-3 gap-6">
+      <div className="grid lg:grid-cols-3 gap-6">
         {/* Slides */}
         {testimonials
           .slice(

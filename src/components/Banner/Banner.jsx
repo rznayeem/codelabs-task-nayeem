@@ -3,13 +3,18 @@ import group1 from '../../assets/media/group1.png';
 import group2 from '../../assets/media/group2.png';
 import group4 from '../../assets/media/group4.png';
 import group5 from '../../assets/media/group5.png';
+import group from '../../assets/Group.png';
 
 const Banner = () => {
   return (
     <div className="mb-4">
       <div>
-        <div className="max-w-[1160px] mt-4  mx-auto relative">
-          <img src={bannerImg} alt="" />
+        <div className="max-w-[1160px] mt-4 px-5 lg:px-0 mx-auto relative">
+          <img
+            className="rounded-[48px] h-96 lg:h-full"
+            src={bannerImg}
+            alt=""
+          />
           <div
             className="absolute h-full w-full top-0 z-10"
             style={{
@@ -24,9 +29,9 @@ const Banner = () => {
         <h1 className="text-5xl font-semibold text-center leading-[56px] mt-7">
           Comprehensive Care <br /> for Every Patient
         </h1>
-        <div className="grid grid-cols-5 gap-5 mt-11">
+        <div className="grid lg:grid-cols-5 grid-cols-2 md:grid-cols-3 gap-5 mt-11">
           <div
-            className="p-5 -mt-[122px]  h-[312px]"
+            className="p-5 lg:-mt-[122px] "
             style={{
               borderRadius: '24px',
               border: '0.5px solid rgba(2, 0, 67, 0.20)',
@@ -34,13 +39,15 @@ const Banner = () => {
             }}
           >
             <h1 className="text-[40px] font-semibold">90%</h1>
-            <p>Patient satisfaction rate, reflecting our commitment.</p>
-            <div className="flex justify-center">
+            <p className="text-[14px] text-[#020043]">
+              Patient satisfaction rate, reflecting our commitment.
+            </p>
+            <div className="flex justify-center mt-6">
               <img src={group1} alt="" />
             </div>
           </div>
           <div
-            className="bg-[#FBFBFB] p-5 h-[190px]"
+            className="bg-[#FBFBFB] p-5 lg:h-[190px]"
             style={{
               borderRadius: '24px',
               border: '0.5px solid rgba(2, 0, 67, 0.20)',
@@ -48,8 +55,8 @@ const Banner = () => {
             }}
           >
             <h1 className="text-[40px] font-semibold">500+</h1>
-            <div className="flex">
-              <p className="text-nowrap">
+            <div className="lg:flex">
+              <p className="text-nowrap text-[14px] text-[#020043]">
                 Board-certified <br /> doctors
               </p>
 
@@ -57,14 +64,14 @@ const Banner = () => {
             </div>
           </div>
           <div
-            className="bg-[#FBFBFB] p-5 h-[162px] self-end"
+            className="bg-[#FBFBFB] p-5 h-full lg:h-[162px] self-end"
             style={{
               borderRadius: '24px',
               border: '0.5px solid rgba(2, 0, 67, 0.20)',
               background: '#FBFBFB',
             }}
           >
-            <h1 className="text-[40px] font-semibold flex items-center gap-3">
+            <h1 className="text-[40px] font-semibold lg:flex items-center gap-3 leading-4 pb-2">
               4.8{' '}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -86,19 +93,21 @@ const Banner = () => {
                 </defs>
               </svg>
             </h1>
-            <p>Over 20,000 Patient</p>
-            <div className="flex justify-center"></div>
+            <p className="text-[14px] text-[#020043]">Over 20,000 Patient</p>
+            <div className="mt-5">
+              <img src={group} alt="" />
+            </div>
           </div>
           <div
-            className="bg-[#FBFBFB] p-5 h-[190px]"
+            className="bg-[#FBFBFB] p-5 lg:h-[190px]"
             style={{
               borderRadius: '24px',
               border: '0.5px solid rgba(2, 0, 67, 0.20)',
               background: '#FFFFF5',
             }}
           >
-            <h1 className="text-[40px] font-semibold">90%</h1>
-            <div className="flex">
+            <h1 className="text-[40px] font-semibold">$5000</h1>
+            <div className="lg:flex">
               <p className="text-nowrap text-[14px]">
                 Money spend <br /> for poor patient.
               </p>
@@ -107,7 +116,7 @@ const Banner = () => {
             </div>
           </div>
           <div
-            className="bg-[#FBFBFB] p-5 h-[312px] -mt-[122px]"
+            className="bg-[#FBFBFB] p-5 h-[312px] lg:-mt-[122px]"
             style={{
               borderRadius: '24px',
               border: '0.5px solid rgba(2, 0, 67, 0.20)',
@@ -115,8 +124,10 @@ const Banner = () => {
             }}
           >
             <h1 className="text-[40px] font-semibold">50+</h1>
-            <p>Free lession video for patient</p>
-            <div className="flex justify-center">
+            <p className="text-[14px] text-[#020043]">
+              Free lession video for patient
+            </p>
+            <div className="flex justify-center mt-6">
               <img src={group5} alt="" />
             </div>
           </div>

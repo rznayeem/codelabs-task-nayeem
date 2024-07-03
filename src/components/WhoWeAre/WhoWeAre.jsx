@@ -3,8 +3,8 @@ import team1 from '../../assets/media/team1.png';
 
 const WhoWeAre = () => {
   return (
-    <div className="mt-40 flex items-center gap-[123px]">
-      <div className="w-[50%]">
+    <div className="lg:mt-40 mt-12 lg:flex items-center gap-[123px] m-5 lg:m-0">
+      <div className="lg:w-[50%]">
         <h3 className="py-[10px] bg-[#FFFFF5] px-6 rounded-full border border-[#343268] max-w-max mb-4">
           Who we are
         </h3>
@@ -21,10 +21,10 @@ const WhoWeAre = () => {
         </p>
         <Button text={'Learn more'}></Button>
       </div>
-      <div className="w-[50%]">
+      <div className="lg:w-[50%]">
         <div className="relative">
           <img src={team1} alt="" />
-          <div className="absolute bg-[#343268] rounded-[32px] -left-24 -bottom-10 max-w-[395px] py-[47px] px-7 z-10">
+          <div className="lg:absolute bg-[#343268] rounded-[32px] lg:-left-24 left-0 lg:-bottom-10 max-w-[395px] py-[47px] px-7 z-10">
             <h3 className="text-white text-2xl font-medium mb-5">
               Our mission is simple
             </h3>
