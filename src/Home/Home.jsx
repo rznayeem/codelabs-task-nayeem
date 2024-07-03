@@ -15,7 +15,7 @@ const Home = () => {
   return (
     <div className="bg-[#FBFBFB] text-[#020043] font-inter overflow-hidden">
       <div className="relative">
-        <div className="relative z-20">
+        <div className="relative z-30">
           <Nav></Nav>
         </div>
         <div className="relative z-20">
