@@ -5,6 +5,7 @@ import Banner from '../components/Banner/Banner';
 import left from '../assets/left.png';
 import right from '../assets/right.png';
 import WhoWeAre from '../components/WhoWeAre/WhoWeAre';
+import Service from '../components/Service/Service';
 
 const Home = () => {
   return (
@@ -45,6 +46,7 @@ const Home = () => {
       </div>
       <div className="max-w-[1160px] mx-auto">
         <WhoWeAre></WhoWeAre>
+        <Service></Service>
       </div>
     </div>
   );
