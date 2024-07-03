@@ -7,15 +7,13 @@ import right from '../assets/right.png';
 import WhoWeAre from '../components/WhoWeAre/WhoWeAre';
 import Service from '../components/Service/Service';
 import Testimonial from '../components/Testimonial/Testimonial';
+import Faq from '../components/Faq/Faq';
+import Appointment from '../components/Appointment/Appointment';
 
 const Home = () => {
   return (
     <div className="bg-[#FBFBFB] text-[#020043] font-inter overflow-hidden">
-      <div
-        style={{
-          position: 'relative',
-        }}
-      >
+      <div className="relative">
         <div className="relative z-20">
           <Nav></Nav>
         </div>
@@ -49,7 +47,9 @@ const Home = () => {
         <WhoWeAre></WhoWeAre>
         <Service></Service>
         <Testimonial></Testimonial>
+        <Faq></Faq>
       </div>
+      <Appointment></Appointment>
     </div>
   );
 };
